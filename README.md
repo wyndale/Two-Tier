@@ -26,7 +26,6 @@ A school laboratory activity for managing events with a RESTful API and web inte
 1. **Clone the repository**
    ```bash
    git clone https://github.com/wyndale/Two-Tier.git
-   cd event-lab-manager
    ```
 
 2. **Database Setup**
