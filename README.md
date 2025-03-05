@@ -1,6 +1,6 @@
-# Events Management System
+# Events Management Application
 
-A school laboratory activity for managing events with a RESTful API and web interface.
+A simple application for managing events with a RESTful API and web interface.
 
 ## Features
 - Create, Read, Update, Delete (CRUD) events
