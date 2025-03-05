@@ -1,0 +1,33 @@
+@server_HostAddress = http://localhost:5004
+
+### Get all events
+GET {{server_HostAddress}}/api/events
+Accept: application/json
+
+### Get a single event by ID (Replace `{id}` with an actual ID)
+GET {{server_HostAddress}}/api/events/1
+Accept: application/json
+
+### Create a new event
+POST {{server_HostAddress}}/api/events
+Content-Type: application/json
+
+{
+  "name": "Tech Conference 2024",
+  "location": "New York",
+  "date": "2024-05-15T10:00:00Z"
+}
+
+### Update an existing event (Replace `{id}` with an actual ID)
+PUT {{server_HostAddress}}/api/events/2
+Content-Type: application/json
+
+{
+  "Id": 2,
+  "name": "Updated Tech Conference",
+  "location": "Los Angeles",
+  "date": "2024-06-20T14:00:00Z"
+}
+
+### Delete an event (Replace `{id}` with an actual ID)
+DELETE {{server_HostAddress}}/api/events/2
